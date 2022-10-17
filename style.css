@@ -4,8 +4,10 @@ body{
 }
 .header{
     width: 100%;
-    height: 70px;
+    height: 75px;
     background-color: #2c6431;
+    position: sticky;
+    top: 0;
 }
 .logo{
     margin-left: 120px;
@@ -32,7 +34,71 @@ body{
     background-color: white;
     border: none;
 }
-.img{
-    
+.img{  
     margin-left: 30px;
+}
+.home-image img{
+    width: 100%;
+    height: auto;
+}
+.category{
+    background-color: #000000;
+    width: 100%;
+    height: 250px;
+    
+}
+.card{
+    margin-right: 4px;
+    float: left;
+    text-align: center;
+    height: 100%;
+    width: 355px;
+    border-left: 0.5px solid white ;
+    color: white;
+
+}
+.card:hover{
+    background-color: #2c6431;
+}
+
+.image{
+    margin-top: 60px;
+}
+.trekking{
+    position: relative;
+    text-align: center;
+    /* background-image: url("./images/b-trekking.jpeg"); */
+    width: 100%;
+}
+.trekking img{
+    width: 100%;
+    height: auto;
+}
+.content{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    color: white;
+
+}
+.content h2{
+    font-size: 50px;
+    font-weight: lighter;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    line-height: .7;
+}
+.content p{
+    max-width: 400px;
+}
+.content button{
+    width: 170px;
+    height: 50px;
+    background-color: #2c6431;
+    font-size: larger;
+    color: white;
+    border: none;
+
 }
