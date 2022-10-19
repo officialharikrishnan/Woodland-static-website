@@ -83,10 +83,12 @@ body{
 
 }
 .content h2{
+    margin: 0;
     font-size: 50px;
     font-weight: lighter;
 }
 .content h1{
+    margin: 0;
     font-size: 60px;
     font-weight: 100;
     line-height: .7;
@@ -131,16 +133,18 @@ body{
     height: auto;
 }
 .content-2{
-    
+    top: 60px;
     position: absolute;
     left: 400px;
     color: white;
 }
 .content-2 h2{
+    margin: 0;
     font-size: 40px;
     font-weight: lighter;
 }
 .content-2 h1{
+    margin: 0;
     font-size: 55px;
     font-weight: 100;
     line-height: .7;
@@ -152,15 +156,19 @@ body{
 
 
 .content-3{
+    /* top: 60px;  */
+    
     position: absolute;
     right: 15px;
     color: white;
 }
 .content-3 h2{
+    margin: 0;
     font-size: 40px;
     font-weight: lighter;
 }
 .content-3 h1{
+    margin: 0;
     font-size: 55px;
     font-weight: 100;
     line-height: .7;
@@ -173,6 +181,7 @@ body{
     text-align: center;
 }
 .content-4{
+    top: 60px;
     position: absolute;
     color: white;
     top: 450px;
@@ -183,10 +192,12 @@ body{
 
 }
 .content-4 h2{
+    margin: 0;
     font-size: 40px;
     font-weight: lighter;
 }
 .content-4 h1{
+    margin: 0;
     font-size: 55px;
     font-weight: 100;
     line-height: .7;
@@ -195,6 +206,7 @@ body{
     position: relative;
 }
 .content-5{
+    top: 60px;
     position: absolute;
     top: 10px;
     color: white;
@@ -205,10 +217,12 @@ body{
 
 }
 .content-5 h2{
+    margin: 0;
     font-size: 40px;
     font-weight: lighter;
 }
 .content-5 h1{
+    margin: 0;
     font-size: 55px;
     font-weight: 100;
     line-height: .7;
@@ -223,6 +237,7 @@ body{
     height: auto;
 }
 .content-6{
+    top: 60px;
     position: absolute;
     top: 10px;
     color: white;
@@ -233,10 +248,12 @@ body{
 
 }
 .content-6 h2{
+    margin: 0;
     font-size: 40px;
     font-weight: lighter;
 }
 .content-6 h1{
+    margin: 0; 
     font-size: 55px;
     font-weight: 100;
     line-height: .7;
@@ -244,7 +261,6 @@ body{
 /*-----------------footer---------------------*/
 
 .footer{
-    margin-top: 0;
     width: 100%;
     height: 600px;
     background-color: black;
@@ -254,6 +270,7 @@ body{
     margin-left: 200px;
     font-size: 50px;
     font-weight: 100;
+    margin: 0;
 }
 #ft{
     margin-left: 200px;
